@@ -24,3 +24,7 @@ body, html {
 .profile-pic {
   width: 150px;
 }
+
+article div h2 {
+  font-weight: 900;
+}
