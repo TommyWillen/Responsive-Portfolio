@@ -37,3 +37,8 @@ footer {
 footer p {
   color: rgb(145, 140, 96);
 }
+
+.border-footer {
+  border-width:6px !important;
+  border-color: rgb(145, 140, 96) !important;
+}

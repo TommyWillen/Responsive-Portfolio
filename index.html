@@ -13,9 +13,20 @@
     <link rel="stylesheet" href="./assets/style/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark">
-      <h3 class="text-light mr-auto mx-3">Tommy Willen</h3>
-      <div>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <h3 class="text-light mr-auto">Tommy Willen</h3>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
@@ -32,30 +43,86 @@
     <div class="bg">
       <main class="container py-3">
         <div class="row">
-          <article class="card bg-light col-lg-7 my-5 mx-3" >
-             <div class="card-body">
+          <article class="card bg-light col-md-7 my-5 mx-3">
+            <div class="card-body">
               <h2>About Me</h2>
-              <hr>
+              <hr />
               <div class="float-left pr-3">
-              <img src="./assets/images/Profile-pic.jpg" class="profile-pic" />
+                <img
+                  src="./assets/images/Profile-pic.jpg"
+                  class="profile-pic"
+                />
               </div>
               <p class="card-text text-wrap">
-                I am a flood of inspiration and creativity looking to break past the barriers placed by my soon-to-be profession and utilize my newly acquired coding skills to enter the world of web development. Born in the quiet and cozy neighborhood of Fairwood in Renton, WA, I lived a relatively charmed life flying through the education system with good grades and even better friends. There were some hiccups along the way (as is with anyone), but after four years of undergraduate work (B.S. in Biology from WSU), one year of service in AmeriCorps (worked in the Federal Way School District as a tutor), and two years of a masters degree (MAT from SPU) I was finally in the profession of my dreams (teaching high school biology at Foster High School in Tukwila, WA). Little did I know the toll that job would place on me.
+                I am a flood of inspiration and creativity looking to break past
+                the barriers placed by my soon-to-be profession and utilize my
+                newly acquired coding skills to enter the world of web
+                development. Born in the quiet and cozy neighborhood of Fairwood
+                in Renton, WA, I lived a relatively charmed life flying through
+                the education system with good grades and even better friends.
+                There were some hiccups along the way (as is with anyone), but
+                after four years of undergraduate work (B.S. in Biology from
+                WSU), one year of service in AmeriCorps (worked in the Federal
+                Way School District as a tutor), and two years of a masters
+                degree (MAT from SPU) I was finally in the profession of my
+                dreams (teaching high school biology at Foster High School in
+                Tukwila, WA). Little did I know the toll that job would place on
+                me.
               </p>
               <p class="card-text text-wrap">
-                Working as a teacher definitely has its ups and downs. The best part about teaching is not the delivery of content, but the relationships I build with my students based on mutual respect, and a drive to push them to be their very best. The worst part was the soul crushing pressure to deliver content that met the needs of students with different learning levels (from those receiving services for special education to honors level students) and different language needs (from little to no English to fluent) with either no support or unnecessary hurdles provided by the district administration. I tried a change of districts in hopes for better working conditions only to find different but equally devastating practices. It was only after eight years of this struggle that I realized a change in profession was the only way to protect my physical and mental health.
-
+                Working as a teacher definitely has its ups and downs. The best
+                part about teaching is not the delivery of content, but the
+                relationships I built with my students based on mutual respect,
+                and a drive to push them to be their very best. The worst part
+                was the soul crushing pressure to deliver content that met the
+                needs of students with different learning levels (from those
+                receiving services for special education to honors level
+                students) and different language needs (from little to no
+                English to fluent) with either no support or unnecessary hurdles
+                provided by the district administration. I tried a change of
+                districts in hopes for better working conditions only to find
+                different but equally devastating practices. It was only after
+                eight years of this struggle that I realized a change in
+                profession was the only way to protect my physical and mental
+                health.
               </p>
               <p class="card-text text-wrap">
-                Here is where I see web development saving my life. In this profession I truly see a pathway to break free from my oppressive world into a new one filled with possibility. I want to become a web developer because I feel it will allow me to unleash my creative instincts where my only limits are what I can imagine. I know this journey will have challenges as well, but I welcome them with open arms and a grinning face. Already in this journey I have found great joy in the challenge of making my code work and am excited at the chance to do this as a profession. As you peruse my portfolio I hope you see the time, passion, and painstaking effort spent towards each line of code.
+                Here is where I see web development saving my life. In this
+                profession I truly see a pathway to break free from my
+                oppressive world into a new one filled with possibility. I want
+                to become a web developer because I feel it will allow me to
+                unleash my creative instincts where my only limits are what I
+                can imagine. I know this journey will have challenges as well,
+                but I welcome them with open arms and a grinning face. Already
+                in this journey I have found great joy in the challenge of
+                making my code work and am excited at the chance to do this as a
+                profession. As you peruse my portfolio I hope you see the time,
+                passion, and painstaking effort spent towards each line of code.
               </p>
             </div>
           </article>
         </div>
       </main>
     </div>
-    <footer class="navbar navbar-expand-md navbar-dark justify-content-center">
+    <footer
+      class="navbar navbar-dark justify-content-center border-top border-footer"
+    >
       <p class="py-2">&#169;Tommy Willen</p>
     </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
