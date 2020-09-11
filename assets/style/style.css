@@ -2,7 +2,9 @@
 nav h3 {
   background-color: #4aaaa5;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  padding: 5px;
+  padding: 8px;
+  font-weight: 900;
+  margin-bottom: 0;
 }
 nav {
     background-color: #f8f9fa;
@@ -41,4 +43,8 @@ footer p {
 /* used this class instead of py classes in bootstrap because they did not provide enough spacing for the fixed header and footer */
 .margined {
   margin: 150px 0px 130px 0px;
+}
+
+article {
+  border-radius: 0 !important;
 }
