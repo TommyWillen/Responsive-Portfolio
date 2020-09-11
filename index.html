@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tommy Willen About Me</title>
+    <!-- bootstrap stylesheet -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -13,46 +14,58 @@
     <link rel="stylesheet" href="./assets/style/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <h3 class="text-light mr-auto">Tommy Willen</h3>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active disabled" href="#">About</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <div class="bg">
-      <main class="container py-3">
-        <div class="row">
-          <article class="card bg-light col-md-7 my-5 mx-3">
+    <header>
+      <!-- navbar-expland-lg makes removes collapse for large-xl displays
+      fixed-top class requires the margined class to prevent it from covering content -->
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <h3 class="text-light mr-auto">Tommy Willen</h3>
+        <!-- only shows button on medium and lower screen sizes -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <!-- used the active class to make it darker and the disabled class to make the link unclickable -->
+              <a class="nav-link active disabled" href="#">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div>
+      <!-- used py-3 class to  -->
+      <main class="container">
+        <!-- added personalized margined class to fix spacing issues with the fixed header and footer -->
+        <div class="row margined">
+          <!-- used col-md-7 to take up 7 columns for medium and larger displays -->
+          <article class="card bg-light col-md-7 mx-3">
             <div class="card-body">
-              <h2>About Me</h2>
+              <h1>About Me</h1>
               <hr />
+              <!-- used float-left class to float it to the left and pr-3 class to create right padding between it and the text-->
               <div class="float-left pr-3">
                 <img
                   src="./assets/images/Profile-pic.jpg"
                   class="profile-pic"
+                  alt="a picture of me at my uncle's lake house"
                 />
               </div>
+              <!-- use text-wrap class to wrap around the profile picture -->
               <p class="card-text text-wrap">
                 I am a flood of inspiration and creativity looking to break past
                 the barriers placed by my soon-to-be profession and utilize my
@@ -104,11 +117,13 @@
         </div>
       </main>
     </div>
+    <!-- although it does not have any links, I used navbar classes for the formatting purposes justify-content-center class made everything centered and fixed-bottom made it fixed to the bottom on the screen -->
     <footer
-      class="navbar navbar-dark justify-content-center border-top border-footer"
+      class="navbar navbar-dark justify-content-center border-top border-footer fixed-bottom"
     >
       <p class="py-2">&#169;Tommy Willen</p>
     </footer>
+    <!-- bootstrap scripts required for the collapsed navbar -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

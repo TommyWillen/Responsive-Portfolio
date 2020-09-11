@@ -1,44 +1,44 @@
+/* used eyedropper tool in paint to find specific color stylings */
 nav h3 {
-  background-color: #3b3d19;
+  background-color: #4aaaa5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 5px;
 }
 nav {
-    background-color: rgb(145, 140, 96);
+    background-color: #f8f9fa;
 }
 body, html {
   height: 100%;
+  background-color: #ebebeb;
 }
 
-.bg {
-  /* The image used */
-  background-image: url("../images/background-image.jpg");
-/* Photo by Efdal YILDIZ from Pexels */
-  /* Full height */
 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-size: cover;
-  background-repeat: repeat;
-}
-
+/* set size for pic to match image */
 .profile-pic {
   width: 200px;
 }
 
-article div h2 {
+article div h1 {
   font-weight: 900;
-  color: #3b3d19;
+  color: #4aaaa5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 footer {
-  background-color: #3b3d19;
+  background-color: #666666;
 }
 
 footer p {
-  color: rgb(145, 140, 96);
+  color: #6c757d;
 }
 
+/* must include !important or it will not work */
 .border-footer {
   border-width:6px !important;
-  border-color: rgb(145, 140, 96) !important;
+  border-color: #4aaaa5 !important;
+}
+
+/* used this class instead of py classes in bootstrap because they did not provide enough spacing for the fixed header and footer */
+.margined {
+  margin: 150px 0px 130px 0px;
 }
