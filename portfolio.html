@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <!-- bootstrap stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/style/style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- navbar-expland-lg makes removes collapse for large-xl displays
+      fixed-top class requires the margined class to prevent it from covering content -->
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <h3 class="text-light mr-auto mx-3">Tommy Willen</h3>
+        <!-- only shows button on medium and lower screen sizes -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active disabled" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <!-- used the active class to make it darker and the disabled class to make the link unclickable -->
+              <a class="nav-link" href="./index.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div>
+      <!-- used py-3 class to  -->
+      <main class="container">
+        <!-- added personalized margined class to fix spacing issues with the fixed header and footer -->
+        <div class="row margined">
+          <!-- used col-md-7 to take up 7 columns for medium and larger displays also used border-0 to remove the border and rounded-0 to add harsh edges -->
+          <section class="card bg-light col-md-8 mx-3 border-0 rounded-0 py-2">
+            <div class="card-body">
+              <h1>Portfolio</h1>
+              <hr />
+              <div class="row ">
+                <article class="col-lg-6 mb-4">
+                    <img src="https://via.placeholder.com/250" alt="placeholder for actual portfolio picture">
+                </article>
+                <article class="col-lg-6 mb-4">
+                    <img src="https://via.placeholder.com/250" alt="placeholder for actual portfolio picture">
+                </article>
+              </div>
+              <div class="row">
+                <article class="col-lg-6 mb-4">
+                    <img src="https://via.placeholder.com/250" alt="placeholder for actual portfolio picture">
+                </article>
+                <article class="col-lg-6 mb-4">
+                    <img src="https://via.placeholder.com/250" alt="placeholder for actual portfolio picture">
+                </article>
+              </div>
+              <div class="row">
+                <article class="col-lg-6 mb-4">
+                    <img src="https://via.placeholder.com/250" alt="placeholder for actual portfolio picture">
+                </article>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+    <!-- although it does not have any links, I used navbar classes for the formatting purposes justify-content-center class made everything centered and fixed-bottom made it fixed to the bottom on the screen -->
+    <footer
+      class="navbar navbar-dark justify-content-center border-top border-footer fixed-bottom"
+    >
+      <p class="py-2">&#169;Tommy Willen</p>
+    </footer>
+    <!-- bootstrap scripts required for the collapsed navbar -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <!-- 
+████████╗░█████╗░███╗░░░███╗███╗░░░███╗██╗░░░██╗  
+╚══██╔══╝██╔══██╗████╗░████║████╗░████║╚██╗░██╔╝  
+░░░██║░░░██║░░██║██╔████╔██║██╔████╔██║░╚████╔╝░  
+░░░██║░░░██║░░██║██║╚██╔╝██║██║╚██╔╝██║░░╚██╔╝░░ 
+░░░██║░░░╚█████╔╝██║░╚═╝░██║██║░╚═╝░██║░░░██║░░░  
+░░░╚═╝░░░░╚════╝░╚═╝░░░░░╚═╝╚═╝░░░░░╚═╝░░░╚═╝░░░  
+░██╗░░░░░░░██╗██╗██╗░░░░░██╗░░░░░███████╗███╗░░██╗
+░██║░░██╗░░██║██║██║░░░░░██║░░░░░██╔════╝████╗░██║
+░╚██╗████╗██╔╝██║██║░░░░░██║░░░░░█████╗░░██╔██╗██║
+░░████╔═████║░██║██║░░░░░██║░░░░░██╔══╝░░██║╚████║
+░░╚██╔╝░╚██╔╝░██║███████╗███████╗███████╗██║░╚███║
+░░░╚═╝░░░╚═╝░░╚═╝╚══════╝╚══════╝╚══════╝╚═╝░░╚══╝
+     -->
+  </body>
+</html>

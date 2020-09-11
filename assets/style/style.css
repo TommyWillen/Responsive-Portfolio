@@ -23,7 +23,7 @@ body, html {
   width: 200px;
 }
 
-form div h1, article div h1 {
+section div h1, form div h1, article div h1 {
   font-weight: 900;
   color: #4aaaa5;
   font-family: Georgia, 'Times New Roman', Times, serif;
