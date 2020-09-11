@@ -1,3 +1,6 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 /* used eyedropper tool in paint to find specific color stylings */
 nav h3 {
   background-color: #4aaaa5;
@@ -20,7 +23,7 @@ body, html {
   width: 200px;
 }
 
-article div h1 {
+form div h1, article div h1 {
   font-weight: 900;
   color: #4aaaa5;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -45,6 +48,14 @@ footer p {
   margin: 150px 0px 130px 0px;
 }
 
-article {
-  border-radius: 0 !important;
+.submit {
+  background-color: #4aaaa5;
+  border: none;
+  color: #fff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
 }
