@@ -9,6 +9,7 @@ View the [github-pages](https://tommywillen.github.io/Responsive-Portfolio/)
 - [Project Description](#Project-Description)
     - [Utilization of Bootstrap Library](#utilization-of-bootstrap-library)
     - [Responsive Website and Features](#Responsive-website-and-features)
+    - [Video Tutorial](#video-tutorial)
 
 - [Installation](#installation)
 
@@ -57,6 +58,12 @@ The final key I wanted to showcase in this project is how the links behave when 
 
 ![What the links look like when you click to different pages](./assets/images/gifs/responsive-portfolio-links.gif)
 
+### Video Tutorial
+
+<video width="400" controls>
+  <source src="" type="video/mp4">
+</video>
+
 ## Installation
 
 Prerequisites\: None
@@ -90,3 +97,4 @@ For this project I would like to thank the following individuals\:
 - John Young\: For introducing me to the joys of Bootstrap and forcing me to challenge myself in the project even if I hated the color scheme
 - Dan Mont-Eton\: For the extra tidbits of support and amazing shortcuts to make my coding experience faster
 - Ben Vaagen\: For inspiring\/compelling\/demanding me to create such an extensive <span>README.md</span> file
+- Cynthia Wu for showing me what a kick\-ass README should look like!
