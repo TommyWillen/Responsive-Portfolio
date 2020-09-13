@@ -60,9 +60,14 @@ The final key I wanted to showcase in this project is how the links behave when 
 
 ### Video Tutorial
 
-<video width="400" controls>
-  <source src="" type="video/mp4">
-</video>
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" poster="./assets/videos/responsive-portfolio-videoposter.png">
+    <source src="./assets/videos/responsive-portfolio-videoREADME.mp4" type="video/mp4">
+    <source src="./assets/videos/responsive-portfolio-videoREADME.mp4" type="video/webm">
+  </video>
+</figure>
+
+
 
 ## Installation
 
