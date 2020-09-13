@@ -62,7 +62,7 @@ The final key I wanted to showcase in this project is how the links behave when 
 ### Video Tutorial
 
 Click the image to view my video feature tutorial:
-[![Video README](/assets/images/videos/Responsive-Portfolio-videoPoster.PNG)](https://www.youtube.com/watch?v=Z2UlkdjzfsY)
+[![Video README](/assets/images/videos/Responsive-Portfolio-videoPoster.PNG) "video readme"](https://www.youtube.com/watch?v=Z2UlkdjzfsY)
 
 
 ## Installation
