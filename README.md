@@ -63,8 +63,7 @@ The final key I wanted to showcase in this project is how the links behave when 
 
 <figure class="video_container">
   <video controls="true" allowfullscreen="true" poster="/assets/videos/Responsive-Portfolio-videoPoster.png">
-    <source src="/assets/videos/Responsive-Portfolio-videoREADME.mp4" type="video/mp4">
-    <source src="/assets/videos/Responsive-Portfolio-videoREADME.mp4" type="video/webm">
+    <source src="/assets/videos/Responsive-Portfolio-videoREADME.webm" type="video/webm">
   </video>
 </figure>
 
