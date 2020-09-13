@@ -61,8 +61,8 @@ The final key I wanted to showcase in this project is how the links behave when 
 
 ### Video Tutorial
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Z2UlkdjzfsY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+Click the image to view my video feature tutorial:
+[![Video README](/assets/images/videos/Responsive-Portfolio-videoPoster.PNG)](https://www.youtube.com/watch?v=Z2UlkdjzfsY)
 
 
 ## Installation
