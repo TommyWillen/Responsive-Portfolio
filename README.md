@@ -57,7 +57,7 @@ The next important feature I added to this site is a fixed header and footer tha
 
 The final key I wanted to showcase in this project is how the links behave when you navigate to each page. In each page you will notice that the link for the given page will be both darker in color and disabled from clicking as seen in the gif below.
 
-![What the links look like when you click to different pages](/assets/images/gifs/Responsive-Portfolio-Links.gif "Links gif")
+![What the links look like when you click to different pages](/assets/images/gifs/Responsive-Portfolio-links.gif "Links gif")
 
 ### Video Tutorial
 
