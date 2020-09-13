@@ -34,9 +34,9 @@ The main content of the page is housed inside one of their card elements which i
 The only elements I used my own stylesheet for were the fonts, colors, and padding/margining that the framwork could not handle.
 
 ### Responsive Website and Features
-![What the about page looks like when resized](assets/images/gifs/responsive-portfolio-aboutme.gif)
-![What the contact page looks like when resized](assets/images/gifs/responsive-portfolio-contact.gif)
-![What the portfolio page looks like when resized](assets/images/gifs/responsive-portfolio-portfoliopage.gif)
+![What the about page looks like when resized](/assets/images/gifs/Responsive-Portfolio-AboutMe.gif "About me gif")
+![What the contact page looks like when resized](/assets/images/gifs/Responsive-Portfolio-Contact.gif "Portfolio gif")
+![What the portfolio page looks like when resized](assets/images/gifs/Responsive-Portfolio-PortfolioPage.gif "Contact gif")
 
 The above three gifs demonstrate what the three pages look like when resized. There are a total of three different states that can be seen in each page. The first is for large screens \(992px and greater\). The second is for medium sized screens \(\<992px  \>767px\). The third is for small and lower sized screens \(\<768px\).
 
@@ -44,24 +44,24 @@ At the start of resizing you will notice that the card \(main content\) does not
 
 The less noticeable change is the top navigation buttons collapse into a hamburger button. The what it looks like can be better seen in the two gifs below.
 
-![What the navbar looks like when resized](assets/images/gifs/responsive-portfolio-navbarcollapse.gif)
+![What the navbar looks like when resized](/assets/images/gifs/Responsive-Portfolio-NavbarCollapse.gif "Navbar Collapse gif")
 
-![What the collapsed navbar button looks like when pressed](assets/images/gifs/responsive-portfolio-navbarbutton.gif)
+![What the collapsed navbar button looks like when pressed](/assets/images/gifs/Responsive-Portfolio-NavbarButton.gif "Navbar Button gif")
 
 At the second breakpoint, the card takes up the majority of the width removing most of the right margin seen in the previous aspect ranges. The length of the forms in the contact page increase in length at the breakpoint as well.
 
 The next important feature I added to this site is a fixed header and footer that remain at the top and bottom of the page respectively regardless of scrolling.
 
-![What the header and footer look like when you scroll up and down](assets/images/gifs/responsive-portfolio-stickyhead-stickyfoot.gif)
+![What the header and footer look like when you scroll up and down](/assets/images/gifs/Responsive-Portfolio-StickyHead-StickyFoot.gif "Sticky Header and Footer gif")
 
 The final key I wanted to showcase in this project is how the links behave when you navigate to each page. In each page you will notice that the link for the given page will be both darker in color and disabled from clicking as seen in the gif below.
 
-![What the links look like when you click to different pages](assets/images/gifs/responsive-portfolio-links.gif)
+![What the links look like when you click to different pages](/assets/images/gifs/Responsive-Portfolio-Links.gif "Links gif")
 
 ### Video Tutorial
 
 <figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="assets/videos/responsive-portfolio-videoposter.png">
+  <video controls="true" allowfullscreen="true" poster="/assets/videos/Responsive-Portfolio-videoPoster.png">
     <source src="assets/videos/responsive-portfolio-videoREADME.mp4" type="video/mp4">
     <source src="assets/videos/responsive-portfolio-videoREADME.mp4" type="video/webm">
   </video>
