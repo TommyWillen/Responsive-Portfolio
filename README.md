@@ -26,7 +26,7 @@ View the [github-pages](https://tommywillen.github.io/Responsive-Portfolio/)
 The purpose of this project was to utilize the Bootstrap framework to develop a website that was responsive to various screen sizes ranging from mobile to desktop so that any user who accesses the site would view an aesthetically appealing design. I also made sure to take what I learned about in my last project to include semantic HTML elements to better accessibility.
 
 ### Utilization of Bootstrap Library
-![About Me Page rendered at 992px wide](assets/images/screenshots/992-responsive-portfolio-index.png)
+![About Me Page rendered at 992px wide](/assets/images/screenshots/992-responsive-portfolio-index.png "About me screenshot")
 In the image above you can my liberal use the the Bootstrap framework when creating this project. To start you can see the header and footer which utilize their navbar components. I also incorporated their navbar collapse and fixed features which will be detailed more in the next subsection.
 
 The main content of the page is housed inside one of their card elements which is housed inside one a column using their grid system. I also included their spacing classes heavily to create effective positioning of text, images, padding to account for aesthetics and to acount for the displacement made by the fixed header and footer.
@@ -62,8 +62,8 @@ The final key I wanted to showcase in this project is how the links behave when 
 
 <figure class="video_container">
   <video controls="true" allowfullscreen="true" poster="/assets/videos/Responsive-Portfolio-videoPoster.png">
-    <source src="assets/videos/responsive-portfolio-videoREADME.mp4" type="video/mp4">
-    <source src="assets/videos/responsive-portfolio-videoREADME.mp4" type="video/webm">
+    <source src="/assets/videos/responsive-portfolio-videoREADME.mp4" type="video/mp4">
+    <source src="/assets/videos/responsive-portfolio-videoREADME.mp4" type="video/webm">
   </video>
 </figure>
 
