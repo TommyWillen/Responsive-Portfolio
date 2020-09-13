@@ -61,11 +61,7 @@ The final key I wanted to showcase in this project is how the links behave when 
 
 ### Video Tutorial
 
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="/assets/videos/Responsive-Portfolio-videoPoster.png">
-    <source src="/assets/videos/Responsive-Portfolio-videoREADME.webm" type="video/webm">
-  </video>
-</figure>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z2UlkdjzfsY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
