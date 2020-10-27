@@ -7,9 +7,10 @@ View the [github-pages](https://tommywillen.github.io/Responsive-Portfolio/)
 ## Table of Contents
 
 - [Project Description](#Project-Description)
-    - [Utilization of Bootstrap Library](#utilization-of-bootstrap-library)
-    - [Responsive Website and Features](#Responsive-website-and-features)
-    - [Video Tutorial](#video-tutorial)
+
+  - [Utilization of Bootstrap Library](#utilization-of-bootstrap-library)
+  - [Responsive Website and Features](#Responsive-website-and-features)
+  - [Video Tutorial](#video-tutorial)
 
 - [Installation](#installation)
 
@@ -26,6 +27,7 @@ View the [github-pages](https://tommywillen.github.io/Responsive-Portfolio/)
 The purpose of this project was to utilize the Bootstrap framework to develop a website that was responsive to various screen sizes ranging from mobile to desktop so that any user who accesses the site would view an aesthetically appealing design. I also made sure to take what I learned about in my last project to include semantic HTML elements to better accessibility.
 
 ### Utilization of Bootstrap Library
+
 ![About Me Page rendered at 992px wide](/assets/images/Screenshots/992-Responsive-Portfolio-Index.PNG "About me screenshot")
 
 In the image above you can my liberal use the the Bootstrap framework when creating this project. To start you can see the header and footer which utilize their navbar components. I also incorporated their navbar collapse and fixed features which will be detailed more in the next subsection.
@@ -35,11 +37,12 @@ The main content of the page is housed inside one of their card elements which i
 The only elements I used my own stylesheet for were the fonts, colors, and padding/margining that the framwork could not handle.
 
 ### Responsive Website and Features
+
 ![What the about page looks like when resized](/assets/images/gifs/Responsive-Portfolio-AboutMe.gif "About me gif")
 ![What the contact page looks like when resized](/assets/images/gifs/Responsive-Portfolio-Contact.gif "Portfolio gif")
 ![What the portfolio page looks like when resized](assets/images/gifs/Responsive-Portfolio-PortfolioPage.gif "Contact gif")
 
-The above three gifs demonstrate what the three pages look like when resized. There are a total of three different states that can be seen in each page. The first is for large screens \(992px and greater\). The second is for medium sized screens \(\<992px  \>767px\). The third is for small and lower sized screens \(\<768px\).
+The above three gifs demonstrate what the three pages look like when resized. There are a total of three different states that can be seen in each page. The first is for large screens \(992px and greater\). The second is for medium sized screens \(\<992px \>767px\). The third is for small and lower sized screens \(\<768px\).
 
 At the start of resizing you will notice that the card \(main content\) does not change but the far left and right margins decrease. At the first breakpoint, the most noticeable change is card size shrinks.
 
@@ -63,7 +66,6 @@ The final key I wanted to showcase in this project is how the links behave when 
 
 Click the image to view my video feature tutorial:
 [![Video README](/assets/videos/Responsive-Portfolio-videoPoster.PNG)](https://www.youtube.com/watch?v=Z2UlkdjzfsY)
-
 
 ## Installation
 
@@ -109,9 +111,9 @@ SOFTWARE.
 
 - [Email](TommyAllen1215@gmail.com)
 - [Github Page](https://github.com/TommyWillen)
-- [LinkedIn](https://www.linkedin.com/in/tommy-willen-12867b1b3/) 
+- [LinkedIn](https://www.linkedin.com/in/tommy-willen-12867b1b3/)
 
-## Acknowledgements 
+## Acknowledgements
 
 For this project I would like to thank the following individuals\:
 

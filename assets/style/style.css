@@ -1,23 +1,25 @@
 * {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Prata', serif;
+  color: #101810 !important;
 }
 /* used eyedropper tool in paint to find specific color stylings */
 nav h3 {
-  background-color: #4aaaa5;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Merienda One', cursive;
   padding: 8px;
   font-weight: 900;
   margin-bottom: 0;
 }
 nav {
-    background-color: #f8f9fa;
+    background-color: #5b7762;
 }
 body, html {
   height: 100%;
   background-color: #ebebeb;
 }
 
-
+.bg {
+  background-image: url("../images/background-image.jpg");
+  }
 /* set size for pic to match image */
 .profile-pic {
   width: 200px;
@@ -25,8 +27,8 @@ body, html {
 
 section div h1, form div h1, article div h1 {
   font-weight: 900;
-  color: #4aaaa5;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #19201b;
+  font-family: 'Merienda One', cursive;
 }
 
 footer {
@@ -37,19 +39,13 @@ footer p {
   color: #6c757d;
 }
 
-/* must include !important or it will not work */
-.border-footer {
-  border-width:6px !important;
-  border-color: #4aaaa5 !important;
-}
-
 /* used this class instead of py classes in bootstrap because they did not provide enough spacing for the fixed header and footer */
-.margined {
-  margin: 150px 0px 130px 0px;
+.padded {
+  padding: 150px 0px 130px 0px !important;
 }
 
 .submit {
-  background-color: #4aaaa5;
+  background-color: #5b7762;
   border: none;
   color: #fff;
   padding: 15px 32px;
@@ -58,4 +54,8 @@ footer p {
   display: inline-block;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+.card-bg {
+  background-color: #a0a39f !important;
 }

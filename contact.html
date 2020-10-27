@@ -12,6 +12,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./assets/style/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander&family=Merienda+One&family=Prata&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -49,50 +50,26 @@
         </div>
       </nav>
     </header>
-    <div>
+    <div class="bg padded">
       <!-- used py-3 class to  -->
-      <main class="container">
+      <main class="container ">
         <!-- added personalized margined class to fix spacing issues with the fixed header and footer -->
         <div class="row margined">
           <!-- used col-md-7 to take up 7 columns for medium and larger displays also used border-0 to remove the border and rounded-0 to add harsh edges -->
-          <form class="card bg-light col-md-8 mx-3 border-0 rounded-0 py-2">
+          <div class="card col-md-8 mx-3 border-0 rounded-0 py-2 card-bg">
             <div class="card-body">
               <h1>Contact</h1>
               <hr />
               <!-- created form-margin class because the bootstrap margin classes are not extreme enough for the right margin -->
-              <div class="form-group ml-2 mr-3 pr-sm-5">
-                <label>Name</label>
-                <!-- broken form currently -->
-                <input
-                  type="text"
-                  class="form-control rounded-0"
-                  placeholder="Name"
-                />
-              </div>
-              <div class="form-group ml-2 mr-3 pr-sm-5">
-                <label>Email</label>
-                <!-- broken form currently -->
-                <input
-                  type="email"
-                  class="form-control rounded-0"
-                  id="exampleInputEmail1"
-                  placeholder="Email"
-                />
-              </div>
-              <div class="form-group ml-2 mr-3 pr-sm-5">
-                <label>Message</label>
-                <!-- broken form currently -->
-                <textarea
-                  class="form-control rounded-0"
-                  id="exampleFormControlTextarea1"
-                  rows="3"
-                  placeholder="Message"
-                ></textarea>
-              </div>
-              <!-- it presses but goes nowhere!!! [so far ;) ] -->
-              <button type="submit" class="btn submit rounded-0">Submit</button>
+              <p><strong>Name:</strong> Thomas "Tommy" Willen</p>
+              <p><strong>Email:</strong> TommyWillen12@gmail.com</p>
+              <p><strong>Phone Number:</strong> (206) 799-1640</p>
+              <p><strong>GitHub Profile:</strong> https://github.com/TommyWillen</p>
+              <p><strong>LinkedIn:</strong> https://www.linkedin.com/in/tommy-willen-12867b1b3/</p>
+              <p><strong>Resum&eacute;:</strong><a href="./assets/Tommy-Willen-Resume-2020.pdf"> Tommy Willen's Resum&eacute;</a></p>
+
             </div>
-          </form>
+          </div>
         </div>
       </main>
     </div>
